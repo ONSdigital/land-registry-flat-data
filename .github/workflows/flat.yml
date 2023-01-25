@@ -20,6 +20,6 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/previousReleases/data.json
+          http_url: https://corsproxy.io/?https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/previousReleases/data
           downloaded_filename: ons.json
           postprocess: ./postprocess.ts

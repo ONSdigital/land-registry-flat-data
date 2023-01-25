@@ -1,8 +1,8 @@
-name: data
+name: Flat
 on:
   schedule:
     - cron: 31 9 * * 1-5
-  workflow_dispatch: {}
+  workflow_dispatch: 
   push:
     paths:
       - .github/workflows/flat.yml
@@ -21,4 +21,5 @@ jobs:
         uses: githubocto/flat@v3
         with:
           http_url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/previousReleases/data.json
+          downloaded_filename: ons.json
           postprocess: ./postprocess.ts

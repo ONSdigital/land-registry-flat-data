@@ -20,5 +20,5 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/previousReleases/data
+          http_url: https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/housepriceindex/previousReleases/data.json
           postprocess: ./postprocess.ts

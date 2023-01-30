@@ -12,12 +12,22 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 prefix sr: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
 prefix ukhpi: <http://landregistry.data.gov.uk/def/ukhpi/>
 prefix lrppi: <http://landregistry.data.gov.uk/def/ppi/>
+prefix sprefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix sr: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
+prefix ukhpi: <http://landregistry.data.gov.uk/def/ukhpi/>
+prefix lrppi: <http://landregistry.data.gov.uk/def/ppi/>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix lrcommon: <http://landregistry.data.gov.uk/def/common/>
 
-# House price index for all regions within a given date range
+# House price index for all regions within 5 years from today
 SELECT ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDetached ?hpiTerraced ?averagePriceDetached ?averagePriceFlatMaisonette ?averagePriceSemiDetached ?averagePriceTerraced
 {
+  BIND( now() AS ?currentDateTime ) .
+  BIND( CONCAT( str(year(?currentDateTime)-5), "-", str(month(?currentDateTime)), "-", str(day(?currentDateTime)) ) AS ?currentDateString ) .
+  
   ?region ukhpi:refPeriodStart ?date;
           ukhpi:housePriceIndex ?hpi;
           ukhpi:housePriceIndexDetached ?hpiDetached;
@@ -31,17 +41,16 @@ SELECT ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDeta
 
   ?region ukhpi:refRegion ?regionRef.
   
-#  ?regionRef owl:sameAs ?code.
   ?regionRef rdfs:seeAlso ?code.
              
   ?regionRef rdfs:label ?regionName.
   
 
   FILTER (langMatches( lang(?regionName), "EN")&&
-         ?date > "2015-12-31"^^xsd:date)
+         ?date > xsd:date(?currentDateString)).
              
-  FILTER contains(str(?code),"gov")
-}
+  FILTER contains(str(?code),"gov").
+  }
     """
 )
 

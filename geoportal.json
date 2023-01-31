@@ -15767,6 +15767,11 @@
       "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Local_Enterprise_Partnerships_December_2022_EN_BGC/FeatureServer"
     }, 
     {
+      "name" : "Local_Enterprise_Partnerships_December_2022_EN_BUC", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Local_Enterprise_Partnerships_December_2022_EN_BUC/FeatureServer"
+    }, 
+    {
       "name" : "Local_Enterprise_Partnerships_December_2022_EN_BFC", 
       "type" : "WFSServer", 
       "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Local_Enterprise_Partnerships_December_2022_EN_BFC/WFSServer"
@@ -15795,6 +15800,96 @@
       "name" : "Local_Enterprise_Partnerships_December_2022_EN_BGC", 
       "type" : "MapServer", 
       "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Local_Enterprise_Partnerships_December_2022_EN_BGC/MapServer"
+    }, 
+    {
+      "name" : "Local_Enterprise_Partnerships_December_2022_EN_BUC", 
+      "type" : "MapServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Local_Enterprise_Partnerships_December_2022_EN_BUC/MapServer"
+    }, 
+    {
+      "name" : "East_Scotland_Isochrones_10M", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/East_Scotland_Isochrones_10M/FeatureServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BFC", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BFC/FeatureServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BFE", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BFE/FeatureServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BGC", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BGC/FeatureServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BFC", 
+      "type" : "MapServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BFC/MapServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BUC", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BUC/FeatureServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BFC", 
+      "type" : "WFSServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BFC/WFSServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BGC", 
+      "type" : "MapServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BGC/MapServer"
+    }, 
+    {
+      "name" : "Local_Enterprise_Partnerships_December_2022_EN_BUC", 
+      "type" : "WFSServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Local_Enterprise_Partnerships_December_2022_EN_BUC/WFSServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BGC", 
+      "type" : "WFSServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BGC/WFSServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BFE", 
+      "type" : "WFSServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BFE/WFSServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BFE", 
+      "type" : "MapServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BFE/MapServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BUC", 
+      "type" : "WFSServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BUC/WFSServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_UK_BUC", 
+      "type" : "MapServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_UK_BUC/MapServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_GB_BFC", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_GB_BFC/FeatureServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_GB_BFC", 
+      "type" : "WFSServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_GB_BFC/WFSServer"
+    }, 
+    {
+      "name" : "Countries_December_2022_GB_BFC", 
+      "type" : "MapServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_GB_BFC/MapServer"
     }
   ]
 }

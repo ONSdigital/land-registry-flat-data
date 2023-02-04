@@ -26,7 +26,7 @@ prefix lrcommon: <http://landregistry.data.gov.uk/def/common/>
 SELECT ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDetached ?hpiTerraced ?averagePriceDetached ?averagePriceFlatMaisonette ?averagePriceSemiDetached ?averagePriceTerraced
 {
   BIND( now() AS ?currentDateTime ) .
-  BIND( CONCAT( str(year(?currentDateTime)-5), "-", str(month(?currentDateTime)), "-", str(day(?currentDateTime)) ) AS ?currentDateString ) .
+  BIND( CONCAT( str(year(?currentDateTime)-6), "-", str(month(?currentDateTime)), "-", str(day(?currentDateTime)) ) AS ?currentDateString ) .
   
   ?region ukhpi:refPeriodStart ?date;
           ukhpi:housePriceIndex ?hpi;

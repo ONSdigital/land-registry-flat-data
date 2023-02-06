@@ -15922,9 +15922,69 @@
       "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Countries_December_2022_GB_BUC/WFSServer"
     }, 
     {
+      "name" : "East_Midlands_Isochrones", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/East_Midlands_Isochrones/FeatureServer"
+    }, 
+    {
+      "name" : "East_of_England_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/East_of_England_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "London_East_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/London_East_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "London_West_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/London_West_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "North_East_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/North_East_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "North_Scotland_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/North_Scotland_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "North_West_North_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/North_West_North_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "North_West_South_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/North_West_South_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "Northern_Ireland_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Northern_Ireland_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "South_East_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/South_East_Isochrones_Gen/FeatureServer"
+    }, 
+    {
+      "name" : "West_Midlands_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/West_Midlands_Isochrones_Gen/FeatureServer"
+    }, 
+    {
       "name" : "Built_up_Areas_Dec_2011_Boundaries_V2", 
       "type" : "WFSServer", 
       "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Built_up_Areas_Dec_2011_Boundaries_V2/WFSServer"
+    }, 
+    {
+      "name" : "South_West_Isochrones_Gen", 
+      "type" : "FeatureServer", 
+      "url" : "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/South_West_Isochrones_Gen/FeatureServer"
     }
   ]
 }

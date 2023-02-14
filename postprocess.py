@@ -12,45 +12,41 @@ prefix xsd: <http://www.w3.org/2001/XMLSchema#>
 prefix sr: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
 prefix ukhpi: <http://landregistry.data.gov.uk/def/ukhpi/>
 prefix lrppi: <http://landregistry.data.gov.uk/def/ppi/>
-prefix sprefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-prefix owl: <http://www.w3.org/2002/07/owl#>
-prefix xsd: <http://www.w3.org/2001/XMLSchema#>
-prefix sr: <http://data.ordnancesurvey.co.uk/ontology/spatialrelations/>
-prefix ukhpi: <http://landregistry.data.gov.uk/def/ukhpi/>
-prefix lrppi: <http://landregistry.data.gov.uk/def/ppi/>
 prefix skos: <http://www.w3.org/2004/02/skos/core#>
 prefix lrcommon: <http://landregistry.data.gov.uk/def/common/>
 
-# House price index for all regions within 5 years from today
-SELECT ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDetached ?hpiTerraced ?averagePriceDetached ?averagePriceFlatMaisonette ?averagePriceSemiDetached ?averagePriceTerraced
+# Returns house price index average prices for flats, semis, detacted and terraced for all LA since 2015, with GSS codes
+
+SELECT
+  ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDetached ?hpiTerraced ?averagePriceDetached ?averagePriceFlatMaisonette ?averagePriceSemiDetached ?averagePriceTerraced
+WHERE
 {
-  BIND( now() AS ?currentDateTime ) .
-  BIND( CONCAT( str(year(?currentDateTime)-6), "-", str(month(?currentDateTime)), "-", str(day(?currentDateTime)) ) AS ?currentDateString ) .
-  
-  ?region ukhpi:refPeriodStart ?date;
-          ukhpi:housePriceIndex ?hpi;
-          ukhpi:housePriceIndexDetached ?hpiDetached;
-          ukhpi:housePriceIndexFlatMaisonette ?hpiFlatMaisonette;
-          ukhpi:housePriceIndexSemiDetached ?hpiSemiDetached;
-          ukhpi:housePriceIndexTerraced ?hpiTerraced;
-          ukhpi:averagePriceDetached ?averagePriceDetached;
-          ukhpi:averagePriceFlatMaisonette ?averagePriceFlatMaisonette;
-          ukhpi:averagePriceSemiDetached ?averagePriceSemiDetached;
-          ukhpi:averagePriceTerraced ?averagePriceTerraced.
 
-  ?region ukhpi:refRegion ?regionRef.
+  ?x
+    ukhpi:refRegion ?region;
+    ukhpi:refMonth ?date;
+    ukhpi:housePriceIndex ?hpi;
+    ukhpi:housePriceIndexFlatMaisonette ?hpiFlatMaisonette;
+    ukhpi:housePriceIndexSemiDetached ?hpiSemiDetached;
+    ukhpi:housePriceIndexTerraced ?hpiTerraced;
+    ukhpi:averagePriceFlatMaisonette ?averagePriceFlatMaisonette;
+    ukhpi:averagePriceSemiDetached ?averagePriceSemiDetached;
+    ukhpi:averagePriceTerraced ?averagePriceTerraced;
+    ukhpi:refPeriodStart ?startdate.
   
-  ?regionRef rdfs:seeAlso ?code.
-             
-  ?regionRef rdfs:label ?regionName.
-  
+  OPTIONAL{
+    ?x ukhpi:housePriceIndexDetached ?hpiDetached;
+       ukhpi:averagePriceDetached ?averagePriceDetached.
+    }
 
+  ?region owl:sameAs ?code.
+#  ?region rdfs:seeAlso ?codey #can also use this one
+  ?region rdfs:label ?regionName .
+# FILTER regex(str(?code), "statistics") #this also works
+  FILTER contains(str(?code),"gov")
   FILTER (langMatches( lang(?regionName), "EN")&&
-         ?date > xsd:date(?currentDateString)).
-             
-  FILTER contains(str(?code),"gov").
-  }
+         ?startdate > "2015-12-31"^^xsd:date)
+}
     """
 )
 

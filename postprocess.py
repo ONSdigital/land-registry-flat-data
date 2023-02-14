@@ -5,6 +5,7 @@ sparql = SPARQLWrapper("https://landregistry.data.gov.uk/landregistry/query")
 sparql.setReturnFormat(JSON)
 
 sparql.setQuery("""
+
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix owl: <http://www.w3.org/2002/07/owl#>
@@ -27,16 +28,16 @@ WHERE
     ukhpi:refMonth ?date;
     ukhpi:housePriceIndex ?hpi;
     ukhpi:housePriceIndexFlatMaisonette ?hpiFlatMaisonette;
-    ukhpi:housePriceIndexSemiDetached ?hpiSemiDetached;
-    ukhpi:housePriceIndexTerraced ?hpiTerraced;
     ukhpi:averagePriceFlatMaisonette ?averagePriceFlatMaisonette;
-    ukhpi:averagePriceSemiDetached ?averagePriceSemiDetached;
-    ukhpi:averagePriceTerraced ?averagePriceTerraced;
     ukhpi:refPeriodStart ?startdate.
   
   OPTIONAL{
     ?x ukhpi:housePriceIndexDetached ?hpiDetached;
-       ukhpi:averagePriceDetached ?averagePriceDetached.
+    ukhpi:housePriceIndexSemiDetached ?hpiSemiDetached;
+    ukhpi:housePriceIndexTerraced ?hpiTerraced;
+    ukhpi:averagePriceSemiDetached ?averagePriceSemiDetached;
+    ukhpi:averagePriceTerraced ?averagePriceTerraced;
+    ukhpi:averagePriceDetached ?averagePriceDetached.
     }
 
   ?region owl:sameAs ?code.

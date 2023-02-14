@@ -18,36 +18,38 @@ prefix lrcommon: <http://landregistry.data.gov.uk/def/common/>
 
 # Returns house price index average prices for flats, semis, detacted and terraced for all LA since 2015, with GSS codes
 
-SELECT
-  ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDetached ?hpiTerraced ?averagePriceDetached ?averagePriceFlatMaisonette ?averagePriceSemiDetached ?averagePriceTerraced
-WHERE
+SELECT ?regionName ?code ?date ?hpi ?hpiDetached ?hpiFlatMaisonette ?hpiSemiDetached ?hpiTerraced ?averagePriceDetached ?averagePriceFlatMaisonette ?averagePriceSemiDetached ?averagePriceTerraced
 {
-
-  ?x
-    ukhpi:refRegion ?region;
-    ukhpi:refMonth ?date;
-    ukhpi:housePriceIndex ?hpi;
-    ukhpi:housePriceIndexFlatMaisonette ?hpiFlatMaisonette;
-    ukhpi:averagePriceFlatMaisonette ?averagePriceFlatMaisonette;
-    ukhpi:refPeriodStart ?startdate.
+  BIND( now() AS ?currentDateTime ) .
+  BIND( CONCAT( str(year(?currentDateTime)-6), "-", str(month(?currentDateTime)), "-", str(day(?currentDateTime)) ) AS ?currentDateString ) .
   
-  OPTIONAL{
-    ?x ukhpi:housePriceIndexDetached ?hpiDetached;
-    ukhpi:housePriceIndexSemiDetached ?hpiSemiDetached;
-    ukhpi:housePriceIndexTerraced ?hpiTerraced;
-    ukhpi:averagePriceSemiDetached ?averagePriceSemiDetached;
-    ukhpi:averagePriceTerraced ?averagePriceTerraced;
-    ukhpi:averagePriceDetached ?averagePriceDetached.
-    }
+  ?region ukhpi:refPeriodStart ?date;
+          ukhpi:housePriceIndex ?hpi;
+          ukhpi:housePriceIndexFlatMaisonette ?hpiFlatMaisonette;
+          ukhpi:averagePriceFlatMaisonette ?averagePriceFlatMaisonette.
+          
+  
+  OPTIONAL{?region ukhpi:housePriceIndexDetached ?hpiDetached.}.
+  OPTIONAL{?region ukhpi:housePriceIndexSemiDetached ?hpiSemiDetached.}.
+  OPTIONAL{?region ukhpi:housePriceIndexTerraced ?hpiTerraced.}.
+  OPTIONAL{?region ukhpi:averagePriceDetached ?averagePriceDetached.}.
+  OPTIONAL{?region ukhpi:averagePriceSemiDetached ?averagePriceSemiDetached.}.
+  OPTIONAL{?region ukhpi:averagePriceTerraced ?averagePriceTerraced.}.
+          
 
-  ?region owl:sameAs ?code.
-#  ?region rdfs:seeAlso ?codey #can also use this one
-  ?region rdfs:label ?regionName .
-# FILTER regex(str(?code), "statistics") #this also works
-  FILTER contains(str(?code),"gov")
+  
+  
+  ?region ukhpi:refRegion ?regionRef.
+  
+  ?regionRef rdfs:seeAlso ?code.
+             
+  ?regionRef rdfs:label ?regionName.
+  
   FILTER (langMatches( lang(?regionName), "EN")&&
-         ?startdate > "2015-12-31"^^xsd:date)
-}
+         ?date > xsd:date(?currentDateString)).
+             
+  FILTER contains(str(?code),"gov").
+  }
     """
 )
 

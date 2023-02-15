@@ -21,6 +21,6 @@ jobs:
       - name: Fetch data
         uses: githubocto/flat@v3
         with:
-          http_url: https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Sep/2017&Dateto=now&SeriesCodes=IUMZICQ,IUMBV34,IUMZICR,IUMB482,IUM2WTL&CSVF=CN&UsingCodes=Y&VPD=N&VFD=N 
-          downloaded_filename: boe.csv
+          http_url: http://environment.data.gov.uk/flood-monitoring/id/stations/E12580/readings.json?_limit=100&_sorted&parameter=rainfall
+          downloaded_filename: rainfall.json
           postprocess: ./postprocess.ts

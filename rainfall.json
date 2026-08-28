@@ -11,6 +11,126 @@
   }
    ,
   "items" : [ { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T13-00-00Z" ,
+    "dateTime" : "2026-08-28T13:00:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T12-45-00Z" ,
+    "dateTime" : "2026-08-28T12:45:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T12-30-00Z" ,
+    "dateTime" : "2026-08-28T12:30:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T12-15-00Z" ,
+    "dateTime" : "2026-08-28T12:15:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T12-00-00Z" ,
+    "dateTime" : "2026-08-28T12:00:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T11-45-00Z" ,
+    "dateTime" : "2026-08-28T11:45:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T11-30-00Z" ,
+    "dateTime" : "2026-08-28T11:30:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T11-15-00Z" ,
+    "dateTime" : "2026-08-28T11:15:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T11-00-00Z" ,
+    "dateTime" : "2026-08-28T11:00:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T10-45-00Z" ,
+    "dateTime" : "2026-08-28T10:45:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T10-30-00Z" ,
+    "dateTime" : "2026-08-28T10:30:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T10-15-00Z" ,
+    "dateTime" : "2026-08-28T10:15:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T10-00-00Z" ,
+    "dateTime" : "2026-08-28T10:00:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T09-45-00Z" ,
+    "dateTime" : "2026-08-28T09:45:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T09-30-00Z" ,
+    "dateTime" : "2026-08-28T09:30:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T09-15-00Z" ,
+    "dateTime" : "2026-08-28T09:15:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T09-00-00Z" ,
+    "dateTime" : "2026-08-28T09:00:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T08-45-00Z" ,
+    "dateTime" : "2026-08-28T08:45:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T08-30-00Z" ,
+    "dateTime" : "2026-08-28T08:30:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T08-15-00Z" ,
+    "dateTime" : "2026-08-28T08:15:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
+    "value" : 0.0
+  }
+  , { 
     "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-28T08-00-00Z" ,
     "dateTime" : "2026-08-28T08:00:00Z" ,
     "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
@@ -487,126 +607,6 @@
   , { 
     "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T12-00-00Z" ,
     "dateTime" : "2026-08-27T12:00:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T11-45-00Z" ,
-    "dateTime" : "2026-08-27T11:45:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T11-30-00Z" ,
-    "dateTime" : "2026-08-27T11:30:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T11-15-00Z" ,
-    "dateTime" : "2026-08-27T11:15:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T11-00-00Z" ,
-    "dateTime" : "2026-08-27T11:00:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T10-45-00Z" ,
-    "dateTime" : "2026-08-27T10:45:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T10-30-00Z" ,
-    "dateTime" : "2026-08-27T10:30:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T10-15-00Z" ,
-    "dateTime" : "2026-08-27T10:15:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T10-00-00Z" ,
-    "dateTime" : "2026-08-27T10:00:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T09-45-00Z" ,
-    "dateTime" : "2026-08-27T09:45:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T09-30-00Z" ,
-    "dateTime" : "2026-08-27T09:30:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T09-15-00Z" ,
-    "dateTime" : "2026-08-27T09:15:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.01
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T09-00-00Z" ,
-    "dateTime" : "2026-08-27T09:00:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T08-45-00Z" ,
-    "dateTime" : "2026-08-27T08:45:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T08-30-00Z" ,
-    "dateTime" : "2026-08-27T08:30:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T08-15-00Z" ,
-    "dateTime" : "2026-08-27T08:15:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T08-00-00Z" ,
-    "dateTime" : "2026-08-27T08:00:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T07-45-00Z" ,
-    "dateTime" : "2026-08-27T07:45:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T07-30-00Z" ,
-    "dateTime" : "2026-08-27T07:30:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T07-15-00Z" ,
-    "dateTime" : "2026-08-27T07:15:00Z" ,
-    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
-    "value" : 0.0
-  }
-  , { 
-    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm/2026-08-27T07-00-00Z" ,
-    "dateTime" : "2026-08-27T07:00:00Z" ,
     "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/E12580-rainfall-tipping_bucket_raingauge-t-15_min-mm" ,
     "value" : 0.0
   }

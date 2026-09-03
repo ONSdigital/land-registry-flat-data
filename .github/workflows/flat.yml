@@ -17,7 +17,7 @@ jobs:
         with:
           deno-version: v1.10.x
       - name: Check out repo
-        uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Fetch data
         uses: githubocto/flat@fc34373cc20b987e89d75d96435a9fecd8fb0807 # v3
         with:
